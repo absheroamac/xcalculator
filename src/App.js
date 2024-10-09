@@ -22,7 +22,7 @@ function App() {
 
     <div className={styles.app}>
       <h1>React Calculator</h1>
-      <input value={expression} className="input-field">
+      <input type="text" className="input-field">
       </input>
       <div>{answer}</div>
 
